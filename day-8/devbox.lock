@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "dotnet-sdk@latest": {
+      "last_modified": "2024-11-22T01:27:12Z",
+      "resolved": "github:NixOS/nixpkgs/8edf06bea5bcbee082df1b7369ff973b91618b8d#dotnet-sdk",
+      "source": "devbox-search",
+      "version": "8.0.404",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j8f27blbvp8hddcxm8ihw3gv06i7hzng-dotnet-sdk-wrapped-8.0.404",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j8f27blbvp8hddcxm8ihw3gv06i7hzng-dotnet-sdk-wrapped-8.0.404"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fjjg8477q0b0f86jkybd5xwyd0cb3sxv-dotnet-sdk-wrapped-8.0.404",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fjjg8477q0b0f86jkybd5xwyd0cb3sxv-dotnet-sdk-wrapped-8.0.404"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jngi74ywv8vfsl0f3xdfk0wkfx71k0xl-dotnet-sdk-wrapped-8.0.404",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jngi74ywv8vfsl0f3xdfk0wkfx71k0xl-dotnet-sdk-wrapped-8.0.404"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jbzrycf46nw5np8miakdisqircfwa143-dotnet-sdk-wrapped-8.0.404",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jbzrycf46nw5np8miakdisqircfwa143-dotnet-sdk-wrapped-8.0.404"
+        }
+      }
+    }
+  }
+}
