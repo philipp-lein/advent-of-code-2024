@@ -34,7 +34,7 @@ def explore(x, y, hike_map, visited):
 
     # Increment score if the current height is 9 (reached the trail's endpoint)
     if current_height == 9:
-        score += 1
+        return 1
 
     # Explore all valid neighbors
     for dx, dy in surrounding:
